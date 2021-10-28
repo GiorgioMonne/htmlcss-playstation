@@ -1,0 +1,44 @@
+
+.box{
+    min-height: 120px;
+    background-color: aqua;
+    border: 1px solid;
+}
+
+.box-img{
+    height: 400px;
+    background-color: aqua;
+    border: 1px solid;
+}
+
+
+/* ***header*** */
+
+header{
+    background-color: rgb(200, 255, 192);
+}
+
+.container{
+    background-color: blue;
+}
+
+/* ***jumbotron*** */
+
+.jumbotron{
+    /* height: 400px; */
+     background-color: brown;
+}
+
+/* ***main*** */
+
+main{
+    /* height: 3000px; */
+    background-color: red;
+}
+
+/* ***footer*** */
+
+footer{
+    height: 600px;
+    background-color: green;
+}
