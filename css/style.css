@@ -1,14 +1,39 @@
 
+
+
 .box{
-    min-height: 120px;
+    height: 100px;
+    /* width: 160px; */
+    background-color: aqua; 
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 0 auto; 
+    object-fit: cover;
+    
+}
+
+.box img{
+    width: 160px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.box-capitolo{
+    height: 120px;
+    background-color: aqua;
+    border: 1px solid;
+    border-radius: 5px; 
+}
+
+.box-head{
+    height: 100px;
     background-color: aqua;
     border: 1px solid;
 }
 
-.box-img{
-    height: 400px;
-    background-color: aqua;
-    border: 1px solid;
+.box-jumbo{
+    min-height: 250px;
+    color: white;
 }
 
 
@@ -19,26 +44,94 @@ header{
 }
 
 .container{
-    background-color: blue;
+     background-color: blue; 
 }
+
+.top-nav{
+    height: 35px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+}
+
+.log{
+    width: 100px;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    align-self: center;
+}
+
+.nav{
+    width: 100%;
+}
+
+.ps-log{
+    width: 100px;
+}
+
+.btn.btn-primary{
+    border-radius: 2em;
+    background-color: rgb(255, 111, 0);
+    font-weight: bold;
+}
+
+.lol{
+    height: 100px;
+    width: 150px;
+    object-fit: cover;
+}
+
 
 /* ***jumbotron*** */
 
 .jumbotron{
-    /* height: 400px; */
-     background-color: brown;
+    height: 550px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-color: brown;
 }
 
 /* ***main*** */
 
 main{
-    /* height: 3000px; */
-    background-color: red;
+    background-color: red; 
+}
+
+.ps5{
+    height: 300px;
+    object-fit: cover;
+}
+
+.ps5 img{
+    max-height: 300px;
+    max-width: 350px;
+}
+
+.oggetti{
+    height: 110px;
+    width: 110px; 
+    object-fit: cover;
+    background-color: aqua;
+}
+
+.oggetti img{
+    max-height: 100px;
+}
+
+.takestwo{
+    height: 600px;
+    width: 100%;
+    background-color: aqua;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 /* ***footer*** */
 
 footer{
-    height: 600px;
+    /* height: 600px; */
     background-color: green;
 }
