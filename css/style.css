@@ -174,35 +174,25 @@ main{
     text-align: left;
 }
 
-.Plus{
-    height: 250px;
-    background-color: grey;
-    display: flex;
-    justify-content: space-between;
-}
-
-.sotto{
-    height: 250px;
-    width: 300px;
-    display: flex;
-    background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
-    background-size: cover;
-}
 .sopra{
+    width: 100%;
     height: 250px;
-    display: flex;
-    padding-left: 30px;
-    padding-top: 20px;
-    flex-direction: column;
-    margin-right: 50px;
-
+    background-color: blueviolet;
 }
 
 .sopra img{
-    height: 50px;
-    width: 210px;
-
+    width: 200px;
 }
+
+.plus-due{
+    width: 100%;
+    object-fit: cover;
+    background-color: brown;
+}
+.plus-due img{
+    width: 100%;
+}
+
 
 /* ***footer*** */
 
